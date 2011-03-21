@@ -20,7 +20,9 @@
 #X obj 601 391 t b b;
 #X msg 604 533 60000;
 #X obj 604 484 * 12;
+#X obj 522 332 print;
 #X connect 0 0 1 0;
+#X connect 0 0 21 0;
 #X connect 1 0 8 0;
 #X connect 2 0 3 0;
 #X connect 3 0 20 0;
